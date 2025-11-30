@@ -1,6 +1,6 @@
-# SVG Cleaner Skill
-
 ![SVG Cleaner](./assets/svg-cleaner-banner.svg)
+
+# SVG Cleaner Skill
 
 A Claude skill for cleaning, optimizing, and batch-processing SVG files with support for sprite generation.
 
@@ -28,10 +28,19 @@ A Claude skill for cleaning, optimizing, and batch-processing SVG files with sup
 
 ## Installation
 
+**A. Claude AI** (Claude in the cloud )
+
 1. Download `svg-cleaner.skill`
 2. Open Claude.ai
 3. Go to Settings → Skills
 4. Upload the `.skill` file
+
+**B. Claude Code or CLI (local installation)**
+
+1. Download `image-to-webp.skill`
+2. Change the file extension to zip `svg-cleaner.skill`  → `svg-cleaner.zip` 
+3. De compress the .zip in the ` .claude/sillks/` folder
+4. remove the zip file
 
 ## Usage Examples
 
@@ -86,4 +95,4 @@ Issues and pull requests welcome!
 
 ## Author
 
-Created by Daniel Serrano for Griddo
+Created by Daniel Serrano for Claude Skills
